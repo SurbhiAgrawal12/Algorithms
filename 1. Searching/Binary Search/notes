@@ -1,0 +1,8 @@
+The time complexity of binary search is O(log n), where n is the size of the sorted input array.
+This is because binary search repeatedly divides the input array in half and checks whether the target element is in the left or right half. With each comparison, the search space is reduced by half, leading to a logarithmic time complexity.
+
+To be more specific, in the worst case scenario, binary search takes log_2(n) comparisons to find the target element, where log_2 denotes the logarithm with base 2. This is because binary search halves the search space with each comparison, and the maximum number of times it can divide a list of n elements by 2 is log_2(n). Therefore, the time complexity of binary search is O(log n).
+
+It's important to note that binary search assumes that the input array is sorted. If the array is not sorted, binary search may not work correctly, or it may require an additional sorting step, which can affect the time complexity. Additionally, binary search assumes that access to any element of the array takes constant time, which may not be the case in some data structures.
+
+"Element should be in monotonic function"
