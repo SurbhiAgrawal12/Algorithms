@@ -1,0 +1,30 @@
+Backtracking and recursion are two related concepts used in programming and problem-solving, 
+but they serve different purposes.
+
+Recursion:
+Recursion is a programming technique where a function calls itself to solve a problem by 
+breaking it down into smaller, similar subproblems. In a recursive function, the function 
+repeatedly invokes itself with different inputs until it reaches a base case that doesn't 
+require further recursive calls. Recursion is characterized by self-reference and the ability 
+to solve complex problems by dividing them into simpler instances. 
+It is widely used in various algorithms and data structures.
+
+Backtracking:
+Backtracking is a specific algorithmic technique used to solve problems by exploring all 
+possible solutions incrementally. It involves trying out different options and undoing 
+(backtracking) certain decisions if they lead to a dead-end or are not optimal. 
+Backtracking is often used in problems where we need to find one or all possible solutions 
+satisfying certain constraints. It systematically explores the solution space, discarding 
+choices that don't meet the desired criteria.
+
+The main difference between backtracking and recursion is their purpose and how they 
+handle the problem-solving process. Recursion is a general programming technique that 
+involves breaking down a problem into smaller subproblems and solving them recursively. 
+Backtracking, on the other hand, is a specific algorithmic approach that uses recursion 
+to explore all possible solutions to a problem by trying different options and undoing 
+choices if needed.
+
+It's worth noting that backtracking can be implemented using recursion. 
+In fact, recursion is commonly used in backtracking algorithms to explore different paths or 
+choices in a systematic manner. Backtracking can be seen as a specialized form of recursion
+that focuses on exploring and finding solutions through a trial-and-error approach.
