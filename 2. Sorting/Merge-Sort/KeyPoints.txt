@@ -1,0 +1,26 @@
+1. Merge Sort means divide an array into two parts sort them and merge  them.
+2. Effective solution to reduce memory: don't create copy of an array into two another  array.
+instead of that use referencing (use index - sort from start index to middle index)
+than sort from middle index+1 to end index
+3.  Merge array into another array(this tym we will need another aaray, we  cannot merge in the same array)
+4. middle index = (si+ei)/2( in nodejs we don't have integer type so if si+ei % 2 != 0 do +1
+
+Merge Sort uses recursive Method
+
+empty array means = si> ei
+single element array = si == ei
+
+
+Ultimately, the choice between Quicksort and Mergesort depends on the specific requirements of your task. 
+If you need a stable sorting algorithm or you are dealing with very large datasets, Mergesort may be a better choice. 
+If you need a faster algorithm for smaller datasets, Quicksort may be the better option.
+
+
+recurence Relation = T(n) = T(n/2) + T(n/2) + n
+time complexity = o(nlogn){best, Avg, worst}
+space complexity o(n)
+
+inplace algorithm, 
+stable algorithm
+
+
