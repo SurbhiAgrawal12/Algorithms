@@ -1,0 +1,27 @@
+recurssion: function calls itself.
+
+A big or complex problem solution depends on same type of small problem.
+2^n = 2 * 2^(n-1)
+F(n) = 2 * F(n-1)
+
+n! = n*(n-1)!
+F(n) = n* F(n-1)
+
+/**
+Requirements:
+1. Base  case ( return is mandatory in base  case)
+2. Recursive relation
+3. Processing part
+*/
+
+function1 :
+1. base case
+2. Recursive relation
+3. Processing part
+// jis function me Recursive relation wala part Processing  k upper aata hai use hum bolte hai head recurssion.
+
+function2: 
+1. base case
+2. Processing part
+3. Recursive relation
+//   jis function me Recursive relation wala part last me aata hai, use hum tail recurssion bolte hai.
